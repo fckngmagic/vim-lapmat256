@@ -4,16 +4,16 @@ highlight clear
 if exists("syntax_on")
     syntax reset
   endif
-let g:colors_name="lapis256"
+let g:colors_name="lapmat256"
 
-hi Normal          ctermfg=251      ctermbg=237         cterm=none
+hi Normal          ctermfg=251      ctermbg=234         cterm=none
 
 hi Comment         ctermfg=245      ctermbg=none        cterm=none
 hi Conceal         ctermfg=230      ctermbg=237        cterm=none
 hi CommentURL      ctermfg=230      ctermbg=237        cterm=underline
 hi SpecialComment  ctermfg=246      ctermbg=none        cterm=none
 
-hi Constant        ctermfg=051      ctermbg=none        cterm=bold
+hi Constant        ctermfg=117      ctermbg=none        cterm=bold
 hi String          ctermfg=146      ctermbg=none        cterm=none
 hi Character       ctermfg=045      ctermbg=none        cterm=none
 hi Number          ctermfg=043      ctermbg=none        cterm=none
